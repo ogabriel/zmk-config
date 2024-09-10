@@ -76,7 +76,7 @@
 &trans      &trans    &kp BACKSLASH  &kp SLASH  &kp PIPE          &kp DOUBLE_QUOTES                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER         &kp MINUS          &trans   &kp F12
 &trans      &cedilla  &kp GRAVE      &kp TILDE  &kp SINGLE_QUOTE  &kp CARET                            &kp LEFT              &kp DOWN               &kp UP_ARROW      &kp RIGHT          &trans   &trans
 &trans      &trans    &kp EQUAL      &kp PLUS   &kp LBRC          &kp RBRC           &trans    &trans  &kp LBKT              &kp RBKT               &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans   &trans
-                      &trans         &trans     &trans            &trans             &trans    &trans  &trans                &trans                 &trans            &trans
+                      &trans         &trans     &kp CAPSLOCK      &trans             &trans    &trans  &trans                &trans                 &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -93,3 +93,4 @@
         };
     };
 };
+
