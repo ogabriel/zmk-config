@@ -17,7 +17,14 @@
         cedilla: cedilla {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp C>;
+            bindings =
+                <&macro_press>,
+                <&kp RIGHT_ALT>,
+                <&macro_tap>,
+                <&kp COMMA>,
+                <&macro_release>,
+                <&kp RIGHT_ALT>;
+
             label = "CEDILLA";
         };
     };
